@@ -2,7 +2,7 @@
 Description=Android 2 Linux Notifications Server
 
 [Service]
-ExecStart=/home/fpa/Dev/perso/a2ln-server/.venv/bin/a2ln
+ExecStart=/usr/bin/a2ln
 
 [Install]
 WantedBy=default.target
